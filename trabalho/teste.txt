@@ -1,0 +1,1 @@
+Digite '1' para cadastrar um cliente ou '2' para cadastrar um fornecedor: Digite '1' para cadastrar um cliente ou '2' para cadastrar um fornecedor: teste 2 
