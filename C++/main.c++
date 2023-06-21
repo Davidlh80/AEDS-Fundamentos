@@ -110,15 +110,23 @@ int main() {
     cout << "Digite '1' para cadastrar um cliente, '2' para cadastrar um fornecedor ou '3' para limpar todo o arquivo:";
     cin >> escolha;
 
-    if (escolha == "1") {
-        cadastrarCliente();
-    } else if (escolha == "2") {
-        cadastrarFornecedor();
-    } else if (escolha == "3") {
-        excluirCliente();
-    } else {
-        cout << "Opção inválida!" << endl;
-    }
+    do {
+        cout << "Digite '1' para cadastrar um cliente, '2' para cadastrar um fornecedor ou '3' para limpar o arquivo: ";
+        cin >> escolha;
+
+        if (escolha == "1") {
+            cadastrarCliente();
+            break; // Sai do loop após cadastrar o cliente
+        } else if (escolha == "2") {
+            cadastrarFornecedor();
+            break; // Sai do loop após cadastrar o fornecedor
+        } else if (escolha == "3") {
+            excluirCliente();
+            break; // Sai do loop após excluir os dados
+        } else {
+            cout << "Opção inválida! Por favor, escolha uma opção válida." << endl;
+        }
+    } while (true);
 
     return 0;
 }
