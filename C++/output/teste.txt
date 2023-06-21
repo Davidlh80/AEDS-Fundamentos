@@ -1,0 +1,7 @@
+Informações do cliente cadastrado:
+Nome: lorrayne teste
+Nome: 31983498711
+Nome: 02/07/2004
+Endereço: rua teste
+Endereço: 123
+Endereço: bairro teste
